@@ -1,5 +1,5 @@
 import pyotp
-from smartapi import SmartConnect
+# from smartapi import SmartConnect
 from django.conf import settings
 import logging
 

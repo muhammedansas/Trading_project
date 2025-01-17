@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+app_name = 'stock_trading'
+
 urlpatterns = [
     path('', views.StockListView.as_view(), name='stock-list'),
     path('stock/add/', views.StockCreateView.as_view(), name='stock-add'),
